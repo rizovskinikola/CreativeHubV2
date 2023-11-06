@@ -1,0 +1,258 @@
+* {
+    font-family: Montserrat, sans-serif;
+}
+.hero {
+    background: url(images/hero.png);
+    background-size: cover;
+    padding: 3% 0%;
+}
+.hero h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+}
+.hero h2 {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 51px;
+    text-transform: uppercase;
+    padding-top: 3%;
+}
+.hero h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    margin: 2% 0%;
+}
+.hero h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+}
+.hero p {
+    font-size: 18px;
+    line-height: 120%;
+    color: #606060;
+    padding: 3% 0%;
+}
+.what-you-get {
+    background: linear-gradient(83.48deg, #10a7b3 -42.1%, #054fac 105.37%);
+    padding: 3% 0%;
+    color: white;
+}
+.what-you-get p {
+    font-size: 18px;
+    margin: 0;
+}
+.mentor {
+    margin: 5% 0%;
+}
+.mentor h5,
+.mentor p {
+    font-size: 24px;
+}
+.why-fast-track-bg {
+    background: linear-gradient(226.26deg, #5e9bf7 8.75%, #00ff66 135.16%);
+    margin-bottom: 15%;
+}
+
+.wft-left {
+    color: white;
+    margin: 3% 0%;
+}
+
+.elena {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+.elena:hover {
+    transform: scale(0.98);
+    cursor: pointer;
+}
+.why-fast-track-card {
+    background: linear-gradient(321.24deg, rgba(255, 255, 255, 0.54) 22.98%, rgba(248, 248, 248, 0) 100%);
+    box-shadow: 0px 47px 43px -24px rgba(9, 127, 201, 0.1);
+    backdrop-filter: blur(69px);
+    padding: 2%;
+    border-radius: 24px;
+    position: absolute;
+    margin-top: -10%;
+    text-align: left;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.form img {
+    margin-right: -10%;
+    z-index: 2;
+}
+.form-wrapper {
+    padding: 5px;
+    background: linear-gradient(180deg, #033a70 0%, rgba(255, 255, 255, 0) 43.51%);
+    box-shadow: 0px -23px 47px rgba(145, 0, 182, 0.13);
+    border-radius: 60px;
+    z-index: 1;
+}
+.form-inner {
+    background: #fbfaf5;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    text-align: center;
+}
+.form-inner h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #646464;
+}
+.form-inner h4 {
+    font-size: 32px;
+    line-height: 39px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #646464;
+}
+.form-inner form {
+    width: 60% !important;
+}
+.form-inner textarea {
+    width: 500px;
+    border: 1px solid #a400cd;
+    border-radius: 12px;
+    padding: 2%;
+    margin: 20px 0;
+}
+.submit-btn {
+    display: flex;
+    align-items: center;
+}
+.submit-btn input {
+    width: 500px;
+    border: 1px solid #a400cd;
+    border-radius: 12px;
+    padding: 2%;
+}
+.submit-btn button {
+    background: linear-gradient(257.81deg, #74b3ff -40.45%, #3667c0 85.59%);
+    border-radius: 10px;
+    margin-left: -210px;
+    border: none;
+    color: white;
+    width: 180px;
+    height: 30px;
+}
+@media only screen and (max-width: 991px) {
+    .hero {
+        background: url(images/hero.png);
+        background-size: cover;
+        padding: 5% 0%;
+    }
+    .hero h1 {
+        font-size: 16px;
+    }
+    .hero h2 {
+        font-weight: 900;
+        font-size: 24px;
+        padding-top: 3%;
+    }
+    .hero h3 {
+        font-weight: 700;
+        font-size: 20px;
+        margin: 2% 0%;
+    }
+    .hero h4 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 120%;
+    }
+    .hero p {
+        font-size: 14px;
+        padding: 3% 0%;
+    }
+    .what-you-get {
+        background: linear-gradient(83.6deg, #de6def -85.92%, #704aab 88.23%);
+        padding: 3% 0%;
+        color: white;
+    }
+    .what-you-get p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .mentor h5,
+    .mentor p {
+        font-size: 18px;
+    }
+    .why-fast-track-section {
+        margin-bottom: 0;
+    }
+    .why-fast-track-card {
+        position: relative;
+        margin: 5% 0% !important;
+    }
+    .form img {
+        display: none;
+    }
+    .form-wrapper {
+        padding: 5px;
+        background: linear-gradient(180deg, #a142b5 0%, rgba(255, 255, 255, 0) 43.51%);
+        box-shadow: 0px -23px 47px rgba(145, 0, 182, 0.13);
+        border-radius: 60px;
+        z-index: 1;
+    }
+    .form-inner {
+        background: #fbfaf5;
+        border-radius: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+        text-align: center;
+    }
+    .form-inner h2 {
+        font-size: 20px;
+    }
+    .form-inner h4 {
+        font-size: 20px;
+    }
+    .form-inner form {
+        width: 100% !important;
+    }
+    .form-inner textarea {
+        width: 300px;
+        border: 1px solid #a400cd;
+        border-radius: 12px;
+        padding: 2%;
+        margin: 20px 0;
+    }
+    .submit-btn {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .submit-btn input {
+        width: 300px;
+        border: 1px solid #a400cd;
+        border-radius: 12px;
+        padding: 2%;
+    }
+    .submit-btn button {
+        background: linear-gradient(223.57deg, #c95def 46.58%, #8044ff 110.23%);
+        border-radius: 10px;
+        margin-left: 0px;
+        border: none;
+        color: white;
+        width: 300px;
+        height: 30px;
+        margin-top: 20px;
+    }
+}

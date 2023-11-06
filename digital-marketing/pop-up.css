@@ -1,0 +1,120 @@
+/* Modal Content */
+.modal-contentt {
+    margin: auto !important;
+    padding: 20px !important;
+    border: 1px solid #888 !important;
+    /* width: 30%; */
+    height: 100vh !important;
+    position: fixed !important;
+    z-index: 99999999999999 !important;
+    left: 0 !important;
+    width: 100% !important;
+    background-color: rgb(0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.modal-content-inner {
+    background-color: white;
+    /* width: 30%; */
+    /* margin: 120px auto 0px; */
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 2%;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.modal-content-inner-2 {
+    background-color: white;
+    width: 30%;
+    margin: 120px auto 0px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 2%;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hide {
+    display: none !important;
+}
+#closeBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    transition: transform 0.2s;
+}
+#closeBtn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+/* h5 {
+    font-size: 20px;
+    line-height: 29px;
+    color: #555555;
+    text-align: center;
+} */
+.pop-up-label {
+    color: #2b2b2b;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 2%;
+    margin-bottom: 4px;
+}
+.pop-up-input {
+    border-radius: 4px;
+    width: 100%;
+    border: #979797 1px solid;
+    padding: 4px;
+}
+._form_159 {
+    width: 100%;
+}
+.submit-pop-up-btn {
+    background: #004cff;
+    border-radius: 12px !important;
+    width: 100%;
+    border: none;
+    padding: 1%;
+    margin-top: 5% !important;
+    font-weight: 700;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    color: white;
+}
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 5%;
+}
+.date p {
+    margin: 0;
+}
+.date img {
+    margin-right: 5px;
+}
+small {
+    font-size: 12px !important;
+}
+@media only screen and (max-width: 992px) {
+    .modal-content-inner {
+        width: 90%;
+        margin: auto;
+    }
+    .modal-content-inner-2{
+        width: 90%;
+        padding: 24px;
+        margin: 50px auto 0px;
+    }
+    
+    .pop-up-input {
+        padding: 3px;
+    }
+}

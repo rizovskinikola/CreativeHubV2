@@ -1,0 +1,547 @@
+@media only screen and (max-width: 475px) {
+    .program-card {
+        width: 100% !important;
+    }
+
+    .program-card img {
+        width: 50% !important;
+    }
+
+    .choose-academy-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .academy-card {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 758px) {
+    .videos-iframe {
+        width: 315px;
+        height: auto;
+    }
+
+    .modal-dialog {
+        min-width: 315px;
+        width: 315px !important;
+    }
+
+    .program-card p {
+        width: 180px;
+    }
+
+    .program-card img {
+        width: 50%;
+    }
+    .for-who-box {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    /* footer-form */
+
+    .form-footer {
+        padding: 24px 16px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .form-footer label {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .form-wrapper {
+        display: block;
+    }
+
+    .form-footer h5 {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .form-footer h4 {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 24px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section-m {
+        margin: 90px 0px;
+    }
+    h2 {
+        font-weight: 900 !important;
+        font-size: 24px !important;
+        line-height: 120% !important;
+    }
+    h3 {
+        font-size: 20px !important;
+        line-height: 120% !important;
+    }
+    h4 {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+    p {
+        font-size: 14px !important;
+        line-height: 120% !important;
+    }
+    /* form top */
+    /* .form-top
+  {
+    display: none;
+  } */
+    .form-top-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .submit-top-btn {
+        width: 100%;
+    }
+    .submit-btn-top {
+        width: 100%;
+        padding: 12px;
+    }
+    ._x45467560 {
+        width: 100%;
+        text-align: center;
+    }
+    .form-control {
+        width: 100% !important;
+    }
+    ._form_element,
+    ._button-wrapper {
+        width: 100%;
+        margin: 2% 0%;
+    }
+    .show-hide {
+        display: none;
+    }
+    #showHideFormBtn {
+        display: block;
+    }
+    #closeForm {
+        visibility: hidden;
+    }
+    .header {
+        background-image: url(images/header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 100px;
+        height: 700px;
+        text-align: center;
+    }
+    .header h1 {
+        font-size: 24px;
+        line-height: 120%;
+    }
+    .header h2 {
+        font-size: 14px !important;
+        line-height: 17px !important;
+        font-weight: 500 !important;
+    }
+    .header p {
+        font-size: 14px !important;
+        line-height: 120%;
+    }
+    .over-career-p {
+        font-weight: 500 !important;
+        width: 100%;
+        padding-top: 50px;
+    }
+    .career-form {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .career-form-wrapper {
+        width: 100%;
+        margin: 0% auto 5% auto;
+        text-align: left;
+        padding: 16px;
+    }
+    .career-form-wrapper h2 {
+        font-weight: 900 !important;
+        font-size: 18px !important;
+        line-height: 120% !important;
+    }
+    .career-form input {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 4px 4px 4px 16px;
+        width: 100%;
+        height: 60px;
+        background: #ffffff;
+        border-radius: 12px;
+        font-family: Cabin;
+        border: 1px solid #a400cd;
+    }
+    .career-form button {
+        padding: 12px 16px;
+        transition: transform 0.3s;
+        bottom: 13px;
+    }
+    .career {
+        margin-top: -90px;
+    }
+    .career-card h4 {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 600;
+    }
+    .first-row-students,
+    .third-row-students {
+        width: 400%;
+        animation: first-marquee-students 20s linear infinite;
+    }
+    .second-row-students {
+        width: 400%;
+        animation: second-marquee-students 20s linear infinite;
+    }
+    @keyframes first-marquee-students {
+        from {
+            right: 0;
+        }
+        to {
+            right: 100%;
+        }
+    }
+    @keyframes second-marquee-students {
+        from {
+            left: -100%;
+        }
+        to {
+            left: 0;
+        }
+    }
+    /* fast track */
+    .fast-track {
+        background: linear-gradient(83.6deg, #de6def -85.92%, #704aab 88.23%);
+        margin: 5% 0%;
+        padding: 5% 0%;
+        color: white;
+    }
+    .fast-track h3,
+    .fast-track h4 {
+        margin: 4% 0%;
+    }
+    .fast-track a {
+        display: flex;
+        padding: 3%;
+    }
+    .fast-track-card 
+    {
+        height: 150px;
+    }
+    .fast-track-card img 
+    {
+        max-width: 45%;
+    }
+    /* certificate */
+    .certificate-section {
+        margin: 100px 0;
+    }
+    .certificate {
+        box-shadow: 0px 39px 54px rgba(107, 90, 0, 0.24);
+        border-radius: 42px;
+        background: linear-gradient(230.27deg, #e86df3 4.04%, #002967 125.73%);
+        padding: 2px;
+        width: 80%;
+        margin-bottom: 200px;
+        position: relative;
+    }
+    .certificate-inner {
+        padding: 5%;
+    }
+    .certificate img {
+        position: absolute;
+        top: 75%;
+        right: -25%;
+        max-width: 50%;
+    }
+    .choose-academy-section {
+        padding-top: 5%;
+    }
+    .compare img {
+        width: 60%;
+        padding-top: 5%;
+    }
+    .mentors-title {
+        margin-bottom: 0;
+    }
+    .mentor-box-wrapper {
+        height: 450px;
+    }
+    .feedback-glide-wrapper {
+        margin-left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .student-video {
+        text-align: center;
+    }
+
+    .programs-wrapper {
+        width: 90%;
+    }
+
+    .project-box h3,
+    .event-box h3 {
+        font-size: 16px !important;
+    }
+    .program-card {
+        margin: 10% 0%;
+        padding: 3%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .program-card h3 {
+        margin-bottom: 10px;
+    }
+
+    .program-card p {
+        width: 100%;
+    }
+
+    .program-card img {
+        width: 50%;
+        top: -25px;
+    }
+
+    .program-card {
+        width: 48%;
+    }
+
+    .free-listen-btn {
+        margin-bottom: 50px;
+    }
+
+    .w-lg-50 {
+        width: 100%;
+    }
+
+    .employment-section p {
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .academy-second-card,
+    .academy-third-card {
+        margin-top: 80px;
+    }
+
+    .only-academy-radio,
+    .eu-academy-radio {
+        width: fit-content;
+        text-align: left;
+        margin-right: 0;
+    }
+
+    .price-labels label {
+        transform: none;
+    }
+
+    .calculator-label-wrapper {
+        margin-right: 0;
+    }
+
+    .calculator-label-wrapper div:first-child {
+        margin-bottom: 20px;
+    }
+
+    .calculator-label {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .calculator h4 {
+        margin-bottom: 0;
+    }
+    .calculator {
+        margin-top: 50px;
+    }
+
+    .calculator-price {
+        margin-top: 20px;
+    }
+
+    .price-labels label {
+        margin-right: 0;
+    }
+
+    .calendly-wrapper {
+        margin-top: 10%;
+        margin-bottom: 80px;
+    }
+    .calendly-wrapper .container {
+        width: 50%;
+        margin-left: 50%;
+        display: block !important;
+    }
+    .calendly-wrapper p {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .calendly-wrapper img {
+        max-width: 45%;
+        height: auto;
+        position: absolute;
+        top: -30px;
+        left: 10px;
+    }
+    .calendly-mobile {
+        margin-top: 80px;
+    }
+
+    .apply-now-box button {
+        padding: 12px 0;
+        width: 100%;
+    }
+
+    .apply-now-box {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+    
+
+    .container,
+    .container,
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .calendly-inline-widget {
+        overflow-y: hidden;
+    }
+
+    .free-introduce-course {
+        margin-top: 0;
+    }
+
+    .free-introduce-course h2 {
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .introduce-course-info-title {
+        font-size: 20px;
+        line-height: 190.5%;
+        text-align: center;
+    }
+
+    .apply-now-btn {
+        width: 100%;
+    }
+    .responsive {
+        max-width: 100%;
+        height: auto;
+    }
+    .academy-card {
+        width: 385px;
+        box-shadow: 0 36px 65px -15px rgba(212, 44, 104, 0.33);
+        border-radius: 12px;
+        position: relative;
+        padding: 2px;
+        background: linear-gradient(180deg, #d73062 0%, rgba(0, 0, 0, 0) 100%);
+        height: fit-content;
+        margin: 10px auto;
+    }
+    /* tan;e */
+    .table-column {
+        width: 50%;
+    }
+    .table-left p,
+    .table-right-box {
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+    }
+    .two-row {
+        height: 105px !important;
+    }
+    .table-right-box {
+        height: 60px;
+    }
+    .table-titles p {
+        width: 50%;
+    }
+    /* table */
+    .first-row-logos {
+        height: 35px;
+        background-image: url("../images/logos_first_row.png.webp");
+        background-repeat: repeat-x;
+        animation: first-marquee 13s linear infinite;
+        line-height: 400px;
+        margin-top: 30px;
+    }
+
+    .second-row-logos {
+        height: 35px;
+        background-image: url("../images/logos_second_row..logos_first_row.png.webp");
+        background-repeat: repeat-x;
+        animation: second-marquee 13s linear infinite;
+        line-height: 400px;
+        margin-top: 30px;
+    }
+
+    .third-row-logos {
+        height: 35px;
+        background-image: url("../images/logos_third_row..logos_first_row.png.webp");
+        background-repeat: repeat-x;
+        animation: third-marquee 13s linear infinite;
+        line-height: 400px;
+        margin-top: 30px;
+    }
+
+    .logos-section {
+        height: 230px;
+        overflow: hidden;
+        position: relative;
+        background: #ffffff;
+    }
+        /* free-course */
+        .free-course-wrapper {
+            padding: 10%;
+            margin: 5% 0%;
+        }
+        .free-course-wrapper h4,
+        .free-course-wrapper h3 {
+            font-weight: 500 !important;
+        }
+        .free-course-wrapper a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+}
+
+@media only screen and (max-width: 1199px) {
+    .calculator-table {
+        width: 100%;
+    }
+
+    .calculator-radio-margin-right {
+        margin-right: 0;
+    }
+}
+@media only screen and (min-width: 1650px) {
+    .calendly-wrapper p {
+        margin: 0 0 0 17em;
+    }
+}

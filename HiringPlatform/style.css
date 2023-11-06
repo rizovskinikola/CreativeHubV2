@@ -1,0 +1,499 @@
+
+
+* {
+
+  font-family: 'Raleway', sans-serif;
+
+}
+
+#mainBG {
+
+    background-image: url("Images/mainbg.png");
+
+}
+
+
+
+/* NAVBAR CSS */
+
+#navbarContainer {
+
+    margin-top: 20px;
+
+    
+
+}
+
+.navbar {
+
+    background: rgba(0, 0, 0, 0.6);
+
+box-shadow: -5px 30px 47px -6px rgba(4, 3, 0, 0.25);
+
+backdrop-filter: blur(16px);
+
+border-radius: 20px;
+
+background-color: black;
+
+}
+
+/* Icon 1 */
+
+
+
+.animated-icon1, .animated-icon2, .animated-icon3 {
+
+    width: 30px;
+
+    height: 20px;
+
+    position: relative;
+
+    margin: 0px;
+
+    -webkit-transform: rotate(0deg);
+
+    -moz-transform: rotate(0deg);
+
+    -o-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+    -webkit-transition: .5s ease-in-out;
+
+    -moz-transition: .5s ease-in-out;
+
+    -o-transition: .5s ease-in-out;
+
+    transition: .5s ease-in-out;
+
+    cursor: pointer;
+
+    }
+
+    
+
+    .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+
+    display: block;
+
+    position: absolute;
+
+    height: 3px;
+
+    width: 100%;
+
+    border-radius: 9px;
+
+    opacity: 1;
+
+    left: 0;
+
+    -webkit-transform: rotate(0deg);
+
+    -moz-transform: rotate(0deg);
+
+    -o-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+    -webkit-transition: .25s ease-in-out;
+
+    -moz-transition: .25s ease-in-out;
+
+    -o-transition: .25s ease-in-out;
+
+    transition: .25s ease-in-out;
+
+    }
+
+    
+
+    .animated-icon1 span {
+
+    background: whitesmoke;
+
+    }
+
+    
+
+ 
+
+    
+
+    .animated-icon1 span:nth-child(1) {
+
+    top: 0px;
+
+    }
+
+    
+
+    .animated-icon1 span:nth-child(2) {
+
+    top: 10px;
+
+    }
+
+    
+
+    .animated-icon1 span:nth-child(3) {
+
+    top: 20px;
+
+    }
+
+    
+
+ /* BELOW NAVBAR BUTTON SECTION */
+
+
+
+ #hireBtn {
+
+     width: auto;
+
+     margin-left: auto;
+
+     margin-right: auto;
+
+     padding: 5px;
+
+ }
+
+
+
+
+
+
+
+ .responsive {
+
+    max-width: 100%;
+
+    height: auto;
+
+  }
+
+
+
+
+
+  /* cards style */ 
+
+
+
+  .cardsTopStyle {
+
+    background-color: black;
+
+    border-radius: 20px;
+
+    color: white;
+
+    margin: 0;
+
+  
+
+  
+
+
+
+  } 
+
+  #imgInCard{
+
+   float: left;
+
+    width: 60px;
+
+    height: 70px;
+
+  }
+
+  .profesion {
+
+      margin: 0!important;
+
+      padding-left: 9px;
+
+      text-align: left;
+
+  }
+
+  .name {
+
+      margin: 0;
+
+      text-align: left;
+
+  }
+
+  .skills {
+
+    background-color: #EFF5FE;
+
+    border-radius: 20px;
+
+    padding: 4px 0!important;
+
+    height: fit-content;
+
+    
+
+  }
+
+
+
+  .first {
+
+    display: flex;
+
+    justify-content: flex-start;
+
+  }
+
+  .second {
+
+      display: flex;
+
+  }
+
+
+
+  .filterDiv {
+
+  
+
+    display: none; /* Hidden by default */
+
+  }
+
+  
+
+  /* The "show" class is added to the filtered elements */
+
+  .show {
+
+    display: block;
+
+  }
+
+  
+
+  /* Style the buttons */
+
+  .btn {
+
+    border: none;
+
+    outline: none;
+
+    padding: 12px 16px;
+
+    background-color: #f1f1f1;
+
+    cursor: pointer;
+
+  }
+
+  
+
+  /* Add a light grey background on mouse-over */
+
+  .btn:hover {
+
+    background-color: #ddd;
+
+  }
+
+  
+
+  /* Add a dark background to the active button */
+
+
+
+  /* below cards css */
+
+  .animation {
+
+    color: #7733AD;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    animation: floatText 5ms infinite alternate ease-in-out;
+
+}
+
+
+
+#academyMarqu {
+
+  background-color: black;
+
+  color: whitesmoke;
+
+  padding: 10px;
+
+}
+
+/* cards css */
+
+.cardsStyle {
+
+  background-color: black;
+
+  color: #DBDBDB;
+
+  border-radius: 30px;
+
+}
+
+
+
+
+
+/* modal for cards */ 
+
+.modalFirst {
+
+  display: flex;
+
+
+
+}
+
+
+
+.modaLLskills {
+
+  background-color: #6E6E6E
+
+  ;
+
+  color: white;
+
+  border-radius: 20px;
+
+  padding: 4px;
+
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+  .modalFirst {
+
+    display: grid;
+
+   
+
+
+
+  }
+
+
+
+}
+
+.modal-content {
+
+  background-color: black!important;
+
+  color: #C2C2C2;
+
+}
+
+
+
+/* Last cards css */
+
+.lastCards {
+
+  background-color: black;
+
+  padding: 5px;
+
+  border-radius: 8px;
+
+  color: white;
+
+   margin: 0!important;
+
+}
+
+.price {
+
+display: flex;
+
+justify-content: space-around;
+
+}
+
+.theLastCards {
+
+  padding: 3px!important;
+
+  
+
+}
+
+
+
+#footer {
+
+  background-color: black;
+
+
+
+
+
+  text-align: center;
+
+}
+
+.btn:hover {
+
+  background-color: #FFBD11
+
+}
+
+
+
+
+
+#img2 {display:none}
+
+#img4 {display:none}
+
+@media all and (max-width: 790px) {
+
+  #img1 {display: none;}
+
+  #img2 {display: block; margin: auto;}
+
+  #img3 {display: none;}
+
+  #img4 {display: block; margin: auto;}
+
+}
+
+
+
+.modaLLskills {
+
+  padding: 10px;
+
+  max-width: fit-content;
+
+}
+
+.card-body h6 {
+
+  font-weight: bold;
+
+}

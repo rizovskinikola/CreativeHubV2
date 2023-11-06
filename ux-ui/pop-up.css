@@ -1,0 +1,223 @@
+/* Modal Content */
+.modal-contentt {
+    margin: auto !important;
+    padding: 20px !important;
+    border: 1px solid #888 !important;
+    /* width: 30%; */
+    height: 100vh !important;
+    position: fixed !important;
+    z-index: 99999999 !important;
+    left: 0 !important;
+    width: 100% !important;
+    background-color: rgb(0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    top: 0;
+}
+.modal-content-inner-2 {
+    background-color: white;
+    width: 30%;
+    margin: 0px auto 0px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 2%;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.modal-content-inner-3 {
+    background-color: white;
+    width: 48%;
+    margin: 0px auto 0px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 2%;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.modal-content-inner-3 p {
+    font-size: 16px !important;
+}
+.hide {
+    display: none !important;
+}
+#closeBtn,
+#secondCloseBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    transition: transform 0.2s;
+}
+#closeBtn:hover,
+#secondCloseBtn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+/* h5 {
+    font-size: 20px;
+    line-height: 29px;
+    color: #555555;
+    text-align: center;
+} */
+.pop-up-label {
+    color: #2b2b2b;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 2%;
+    margin-bottom: 4px;
+}
+.pop-up-input {
+    border-radius: 4px;
+    width: 100%;
+    border: #979797 1px solid;
+    padding: 4px;
+}
+._form_159 {
+    width: 100%;
+}
+.submit-pop-up-btn {
+    background: linear-gradient(232.45deg, #4f9ff1 -17.71%, #001f49 133.24%);
+    border-radius: 3px !important;
+    width: 100%;
+    border: none;
+    padding: 1%;
+    margin-top: 5% !important;
+    font-weight: 700;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    color: white;
+}
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 5%;
+}
+.date p {
+    margin: 0;
+}
+.date img {
+    margin-right: 5px;
+}
+small {
+    font-size: 12px !important;
+}
+@media only screen and (max-width: 992px) {
+    .modal-content-inner,
+    .modal-content-inner-2,
+    .modal-content-inner-3 {
+        width: 90%;
+        padding: 24px;
+    }
+    .modal-content-inner-3 p {
+        font-size: 14px !important;
+    }
+
+    .pop-up-input {
+        padding: 3px;
+    }
+}
+
+/* form top */
+.show-hide {
+    display: block;
+}
+#showHideFormBtn {
+    display: none;
+}
+.form-top {
+    position: relative;
+    top: 0;
+    /* background-color: #ffb703; */
+    background: linear-gradient(255.46deg, #00100f -56.11%, #212121 92.61%);
+    padding: 1%;
+}
+.form-top-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.submit-top-btn {
+    border-radius: 6px;
+    padding: 12px;
+    background-color: white;
+    border: none;
+    width: 120px;
+    color: black;
+    font-weight: 600;
+}
+.submit-btn-top {
+    border-radius: 6px;
+    padding: 6px;
+    border: none;
+    /* background: rgba(6, 154, 149, 1); */
+    background-color: white;
+    width: 120px;
+    color: black;
+    font-weight: 600;
+}
+._x45467560 {
+    width: 55%;
+}
+.form-control {
+    width: 90% !important;
+    background: rgba(0, 61, 58, 1) !important ;
+    border: 1px solid #069a95 !important;
+    color: white !important;
+}
+.close-top-form {
+    position: absolute;
+    right: 30px;
+    top: 21px;
+}
+.close-top-form:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+    /* form top */
+    /* .form-top
+  {
+    display: none;
+  } */
+    .form-top-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .submit-top-btn {
+        width: 100%;
+    }
+    .submit-btn-top {
+        width: 100%;
+        padding: 12px;
+    }
+    ._x45467560 {
+        width: 100%;
+        text-align: center;
+    }
+    .form-control {
+        width: 100% !important;
+    }
+    ._form_element,
+    ._button-wrapper {
+        width: 100%;
+        margin: 2% 0%;
+    }
+    .show-hide {
+        display: none;
+    }
+    #showHideFormBtn {
+        display: block;
+    }
+    #closeForm {
+        visibility: hidden;
+    }
+}

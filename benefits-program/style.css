@@ -1,0 +1,559 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+.section-m {
+    margin: 128px 0px;
+}
+.body {
+    background: #ffffff;
+}
+html {
+    overflow-x: hidden;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+.zoom-element {
+    transition: transform 0.2s; /* Animation */
+}
+.zoom-element:hover {
+    cursor: pointer;
+    transform: scale(0.98);
+}
+/* FONTS */
+/* FONTS */
+h2 {
+    font-size: 43px !important;
+    font-weight: 900 !important;
+    line-height: 120% !important;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 32px !important;
+    line-height: 120% !important;
+}
+.h4 {
+    font-size: 24px !important;
+    line-height: 120% !important;
+}
+p {
+    font-size: 18px !important;
+    line-height: 120% !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+.title-color {
+    background: linear-gradient(268.39deg, #069a95 -43.87%, #6e79b7 101.99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.header {
+    background-image: url(images/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 10% 0%;
+}
+.header h1 {
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 120%;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+.header button {
+    background: linear-gradient(234.47deg, #015670 2.71%, #161722 117.85%);
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    margin: 5% 0%;
+}
+.header-inner {
+    width: 56%;
+}
+.arijana {
+    background-image: url(images/arijana-bg.svg);
+    background-size: cover;
+    padding: 5% 0%;
+    text-align: center;
+}
+.arijana img {
+    margin: 30px 0px;
+}
+.arijana p {
+    width: 50%;
+    margin: auto;
+    line-height: 150% !important;
+}
+.do-you-need-it {
+    background: url(images/do-you-need-it-bg.svg), linear-gradient(234.47deg, #015670 2.71%, #161722 117.85%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 5% 0%;
+}
+.do-you-need-it h3,
+.do-you-need-it h2 {
+    text-align: center;
+}
+.do-you-need-it h3 {
+    padding: 30px 0px;
+}
+.do-you-need-it-inner div {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.do-you-need-it div img {
+    margin-right: 16px;
+}
+/* young-people */
+.young-people-main-img {
+    z-index: 1;
+    margin: auto;
+}
+.young-people-blue {
+    background: linear-gradient(268.39deg, #069a95 -43.87%, #6e79b7 101.99%);
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 100px 0%;
+    top: -50px;
+}
+.young-people-blue h3 {
+    width: 50%;
+    margin: auto;
+}
+.young-people-blue h4 {
+    width: 70%;
+    margin: 5% auto;
+}
+.young-people-blue img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+
+.young-people-blue h3 span {
+    color: rgba(255, 193, 33, 1);
+}
+.benefits div {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0px 0px 12px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.benefits div span {
+    height: 75px;
+    width: 75px;
+    background: linear-gradient(268.39deg, #069a95 -43.87%, #6e79b7 101.99%);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 12px 12px 12px 0px;
+}
+.benefits p {
+    width: 87%;
+    margin-left: 3%;
+}
+.benefits hr {
+    color: #ffc121;
+    border-top: 1px solid #ffc121;
+    height: 3px !important;
+}
+.benefits h3 {
+    margin: 20px 0px;
+}
+/* company-benefit */
+.company-benefit-card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 12px;
+    margin: 24px;
+    background: linear-gradient(268.39deg, #069a95 -43.87%, #6e79b7 101.99%);
+    box-shadow: 6px 6px 0px #ffc121;
+    border-radius: 24px;
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+.company-benefit-card h4 {
+    padding: 20px;
+    text-align: left;
+    height: 180px;
+}
+.company-benefit-card p {
+    font-weight: 400;
+    text-align: left;
+    padding: 20px;
+}
+.company-benefit-card hr {
+    height: 1px;
+    width: 30% !important;
+    margin: 0 auto;
+    color: yellow;
+}
+/* why choose */
+.why-element {
+    padding: 49px 55px;
+    margin: 10px;
+    background: #f8f8f8;
+    border: 3px solid #ffffff;
+    box-shadow: 6px 6px 0px #ffc121;
+    border-radius: 59px;
+    width: 44%;
+}
+.why-element h3 {
+    font-weight: 600;
+}
+.why-ul {
+    width: 50%;
+}
+.why-ul img {
+    margin-top: 4px;
+    margin-right: 10px;
+}
+.why-ul div {
+    margin: 10px 0px;
+}
+.why-choose hr {
+    color: #ffc121;
+    height: 4px !important;
+    margin: 20px 0px;
+}
+
+/* prices */
+.yellow {
+    background: #ffc121;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 300px;
+}
+
+.yellow hr {
+    border-top: 3px solid rgba(110, 121, 183, 1);
+    margin: 10px 0px;
+    width: 50%;
+}
+.prices {
+    margin-top: -250px;
+}
+.price-card {
+    padding: 24px 18px;
+    background: #f8f8f8;
+    box-shadow: 0px 37px 42px -18px rgba(137, 137, 137, 0.23);
+    border-radius: 12px;
+    width: 30%;
+    display: inline-grid;
+    margin: 16px;
+}
+.price-card h3 {
+    font-weight: 700;
+}
+.price-card p {
+    margin: 0px 0px 0px 10px;
+    color: #606060;
+}
+.price-card .price {
+    text-align: center;
+    color: rgba(155, 155, 155, 1);
+    margin: 0px 0px 20px 0px;
+    border-top: 2px solid #0a0a0a;
+    padding-top: 10px;
+}
+.price span {
+    font-weight: 800;
+    font-size: 43px;
+    line-height: 120%;
+    color: #0a0a0a;
+}
+.price-card img {
+    margin-top: 4px;
+}
+.price-card div {
+    margin: 10px 0px;
+}
+/* request offer form */
+.request-offer {
+    background: linear-gradient(268.39deg, #069a95 -43.87%, #6e79b7 101.99%);
+    padding: 5% 0%;
+}
+.request-offer h2 {
+    color: white;
+}
+.request-offer label {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.request-offer input {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+}
+.request-offer button {
+    padding: 12px 24px;
+    background: #f8f8f8;
+    box-shadow: 6px 6px 0px #ffc121;
+    border-radius: 12px;
+    border: none;
+    color: #002358;
+    line-height: 20px;
+    font-weight: 700;
+    width: 100%;
+}
+.request-right {
+    margin-left: 5%;
+    width: 90%;
+}
+.request-left {
+    width: 90%;
+}
+.request-right textarea {
+    width: 100%;
+    border-radius: 8px;
+    padding: 12px;
+}
+.request-right ._form_element {
+    margin: 20px 0px;
+}
+.request-right p {
+    font-size: 14px !important;
+    color: white;
+}
+.request-right p span {
+    font-size: 12px !important;
+}
+.request-left h2 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+/* companies */
+.companies-wrapper {
+    background: linear-gradient(180deg, #64a2b5 0%, #b2dae2 100%);
+    box-shadow: 6px 6px 0px #ffc121;
+    padding: 5% 0%;
+}
+.companies-border {
+    height: 3px !important;
+    color: rgba(252, 204, 107, 1);
+    width: 50%;
+    margin: 3% auto;
+}
+/* how it works */
+.how-it-works {
+    background: #ffc121;
+    margin-top: 10%;
+}
+.how-it-works-card {
+    width: 25%;
+    background: #f8f8f8;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 37px 42px -18px rgba(137, 137, 137, 0.23);
+    border-radius: 59px;
+    position: relative;
+    margin: -5% 5% 5% 5%;
+    padding: 20px 60px 30px 20px;
+}
+.how-it-works-card p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #002358;
+    width: 80%;
+}
+.how-it-works-card span {
+    height: 130px;
+    width: 130px;
+    background: linear-gradient(268.39deg, #069a95 -43.87%, #6e79b7 101.99%);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #ffffff;
+    position: absolute;
+    top: -35px;
+    right: -20px;
+}
+.different-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 18px;
+    background: #ffffff;
+    box-shadow: 6px 6px 0px #ffc121;
+    border-radius: 12px;
+    width: 30%;
+    margin: 24px;
+}
+.different-card h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0a0a0a;
+}
+.different-card img {
+    margin-bottom: 30px;
+}
+/* adememies */
+.academy-card-wrapper {
+    padding: 2px;
+    margin: 12px;
+    border-radius: 8px;
+    width: 30%;
+}
+.academy-card-inner {
+    padding: 12px;
+    border-radius: 8px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 520px;
+}
+.academy-card-wrapper-1,
+.academy-card-wrapper-1 h4 {
+    background: linear-gradient(180deg, #2f9dff 0%, #2f66a7 100%);
+}
+.academy-card-wrapper-2,
+.academy-card-wrapper-2 h4 {
+    background: linear-gradient(268.44deg, #ef5da8 -3.9%, #5d86ef 115.11%);
+}
+.academy-card-wrapper-3,
+.academy-card-wrapper-3 h4 {
+    background: linear-gradient(90deg, #531d58 0%, #a967c8 100%);
+}
+.academy-card-wrapper-4,
+.academy-card-wrapper-4 h4 {
+    background: linear-gradient(268.44deg, #ef5da8 -3.9%, #5d86ef 115.11%);
+}
+.academy-card-wrapper-5,
+.academy-card-wrapper-5 h4 {
+    background: linear-gradient(268.39deg, #069a95 -43.87%, #6e79b7 101.99%);
+}
+.academy-card-wrapper-6,
+.academy-card-wrapper-6 h4 {
+    background: linear-gradient(4.39deg, #f38861 19.36%, #e45da2 77.21%);
+}
+.academy-card-wrapper-7,
+.academy-card-wrapper-7 h4 {
+    background: linear-gradient(268.42deg, #383a89 -46.13%, #e86df3 101.99%);
+}
+.academy-card-wrapper-8,
+.academy-card-wrapper-8 h4 {
+    background: linear-gradient(4.39deg, #f38861 19.36%, #e45da2 77.21%);
+}
+.academy-card-wrapper-9,
+.academy-card-wrapper-9 h4 {
+    background: linear-gradient(268.39deg, #069a95 -43.87%, #6e79b7 101.99%);
+}
+.academy-card-wrapper h4 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 700;
+}
+.academy-card-inner p {
+    width: 85%;
+    color: #000000;
+}
+/* calendly */
+.calendly {
+    background: linear-gradient(180deg, #64a2b5 0%, #b2dae2 100%);
+    border-radius: 20px;
+    padding: 20px 60px 20px 20px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+.calendly img {
+    left: 40px;
+    position: absolute;
+    top: -40px;
+}
+.calendly p {
+    color: white;
+    margin-right: 20%;
+}
+.calendly button {
+    background: linear-gradient(268.39deg, #069a95 -43.87%, #6e79b7 101.99%);
+    border-radius: 10px;
+    padding: 12px 16px;
+    border: none;
+    color: #ffffff;
+}
+/* bottom-form*/
+.bottom-form-wrapper {
+    background: url(images/bottom-form-bg.svg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bottom-form {
+    background: linear-gradient(234.47deg, #015670 2.71%, #161722 117.85%);
+    box-shadow: 4px 77px 53px -32px rgba(207, 196, 192, 0.18);
+    border-radius: 24px;
+    padding: 32px;
+    width: 35%;
+    margin: auto;
+    color: white;
+}
+.bottom-form label {
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+}
+.bottom-form input,
+.bottom-form textarea {
+    background: #003b55;
+    border-radius: 8px;
+    padding: 12px;
+    border: none;
+    width: 100%;
+}
+.bottom-form button {
+    background: #f8f8f8;
+    box-shadow: 0px 18px 21px -7px rgba(255, 113, 35, 0.16);
+    border-radius: 12px;
+    padding: 12px 24px;
+    border: none;
+    width: 100%;
+    color: #002358;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.bottom-form p {
+    font-size: 14px !important;
+    color: white;
+    padding-top: 10px;
+}
+.bottom-form p span {
+    font-size: 12px !important;
+}

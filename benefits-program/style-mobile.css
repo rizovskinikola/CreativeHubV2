@@ -1,0 +1,274 @@
+@media only screen and (max-width: 991px) {
+    .section-m {
+        margin: 90px 0px;
+    }
+    /* FONTS */
+    /* FONTS */
+    h2 {
+        font-size: 24px !important;
+    }
+    h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 18px !important;
+    }
+    p {
+        font-size: 14px !important;
+    }
+    .header {
+        background-image: url(images/header-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        padding: 10% 0%;
+    }
+    .header h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .header button {
+        background: linear-gradient(234.47deg, #015670 2.71%, #161722 117.85%);
+        border-radius: 10px;
+        border: none;
+        color: #ffffff;
+        padding: 12px 16px;
+        margin: 5% 0%;
+    }
+    .header-inner {
+        width: 70%;
+    }
+    .arijana p {
+        width: 70%;
+        margin: auto;
+        line-height: 120% !important;
+    }
+    .do-you-need-it-inner div {
+        display: flex;
+        align-items: flex-start;
+        margin: 20px 0px;
+    }
+    /* young poeple */
+    .young-people h2 {
+        width: 80%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .young-people-main-img {
+        z-index: 1;
+        width: 80%;
+        margin: auto;
+    }
+    .young-people-blue {
+        background: linear-gradient(268.39deg, #069a95 -43.87%, #6e79b7 101.99%);
+        color: white;
+        text-align: center;
+        position: relative;
+        padding: 100px 0% 50px 0px;
+        top: -50px;
+    }
+    .young-people-blue h3 {
+        width: 70%;
+        margin: auto;
+    }
+    .young-people-blue h4 {
+        width: 70%;
+        margin: 5% auto;
+    }
+    .young-people-blue img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 3;
+    }
+
+    .young-people-blue h3 span {
+        color: rgba(255, 193, 33, 1);
+    }
+    .benefits p {
+        width: 70%;
+        margin-left: 3%;
+    }
+    /* why choose */
+    .why-element {
+        padding: 0;
+        margin: 0;
+        background: none;
+        border: none;
+        box-shadow: none;
+        border-radius: none;
+        width: 100%;
+    }
+    .why-element h3 {
+        font-weight: 600;
+        text-align: center;
+    }
+    .why-ul {
+        width: 100%;
+    }
+    .why-ul img {
+        margin-top: 4px;
+        margin-right: 10px;
+    }
+    .why-ul div {
+        margin: 5px 0px;
+    }
+    /* company-benefit */
+    .company-benefit-card {
+        margin: 20px auto;
+        width: 90%;
+    }
+    .company-benefit-card h4 {
+        padding: 20px;
+        text-align: left;
+        height: 130px;
+    }
+    .company-benefit-card p {
+        font-weight: 400;
+        text-align: left;
+        padding: 20px;
+    }
+    .company-benefit-card hr {
+        height: 1px;
+        width: 30% !important;
+        margin: 0 auto;
+        color: yellow;
+    }
+    /* different */
+    .different-card {
+        width: 80%;
+        margin: 24px auto;
+    }
+    .different-card h4 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0a0a0a;
+    }
+    .different-card img {
+        margin-bottom: 30px;
+    }
+    /* prices */
+    .yellow {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .yellow hr {
+        display: none;
+    }
+    .prices {
+        margin-top: 0px;
+    }
+    .price-card {
+        width: 100%;
+        display: block;
+        margin: 16px auto;
+    }
+    .price-card .price {
+        padding-top: 20px;
+    }
+    .price-card div {
+        margin: 16px 0px;
+    }
+    /* companies */
+    .companies-wrapper {
+        background: linear-gradient(180deg, #64a2b5 0%, #b2dae2 100%);
+        box-shadow: 6px 6px 0px #ffc121;
+        padding: 10% 0%;
+    }
+    /* how it works */
+    .how-it-works {
+        background: #ffc121;
+        margin-top: 100px;
+        height: 450px;
+    }
+    .how-it-works-card {
+        width: 80%;
+        background: #f8f8f8;
+        border: 3px solid #ffffff;
+        box-shadow: 0px 37px 42px -18px rgba(137, 137, 137, 0.23);
+        border-radius: 59px;
+        position: relative;
+        margin: -50px auto 100px auto;
+        padding: 20px 60px 30px 20px;
+    }
+    .how-it-works-card p {
+        font-weight: 700;
+        font-size: 16px !important;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #002358;
+        width: 80%;
+    }
+    .how-it-works-card span {
+        height: 100px;
+        width: 100px;
+        background: linear-gradient(268.39deg, #069a95 -43.87%, #6e79b7 101.99%);
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 64px;
+        line-height: 120%;
+        font-weight: 700;
+        color: #ffffff;
+        position: absolute;
+        top: -35px;
+        right: -20px;
+    }
+    .request-right,
+    .request-left {
+        margin: auto;
+    }
+    /* academies */
+    .academy-card-wrapper {
+        padding: 2px;
+        margin: 5% auto;
+        border-radius: 8px;
+        width: 90%;
+    }
+    .academy-card-inner {
+        padding: 12px;
+        border-radius: 8px;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 410px;
+    }
+    /* calendly */
+    .calendly {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        padding: 20px;
+    }
+    .calendly img {
+        left: auto;
+        position: relative;
+        top: 0;
+        margin: auto;
+    }
+    .calendly p {
+        color: white;
+        margin-right: 0;
+    }
+    .calendly button {
+        background: linear-gradient(268.39deg, #069a95 -43.87%, #6e79b7 101.99%);
+        border-radius: 10px;
+        padding: 12px 16px;
+        border: none;
+        color: #ffffff;
+    }/* bottom-form*/
+    .bottom-form {
+        width: 90%;
+    }
+}
